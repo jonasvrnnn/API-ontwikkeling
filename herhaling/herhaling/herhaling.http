@@ -1,0 +1,6 @@
+@herhaling_HostAddress = http://localhost:5128
+
+GET {{herhaling_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
