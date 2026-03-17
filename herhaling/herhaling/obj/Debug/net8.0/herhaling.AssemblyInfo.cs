@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("herhaling")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+496e3a1348cfd0a46c1fe7d2e5aa33e8a553d070")]
 [assembly: System.Reflection.AssemblyProductAttribute("herhaling")]
 [assembly: System.Reflection.AssemblyTitleAttribute("herhaling")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

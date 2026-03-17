@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonas\\Documents\\AP desktop\\actief\\apiOntwikkeling\\labo\\herhaling\\herhaling\\herhaling.csproj": {}
+    "C:\\Users\\jonas\\OneDrive\\Documents\\AP2025\\programmeren\\APIontwikkeling\\labo\\herhaling\\herhaling\\herhaling.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonas\\Documents\\AP desktop\\actief\\apiOntwikkeling\\labo\\herhaling\\herhaling\\herhaling.csproj": {
+    "C:\\Users\\jonas\\OneDrive\\Documents\\AP2025\\programmeren\\APIontwikkeling\\labo\\herhaling\\herhaling\\herhaling.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonas\\Documents\\AP desktop\\actief\\apiOntwikkeling\\labo\\herhaling\\herhaling\\herhaling.csproj",
+        "projectUniqueName": "C:\\Users\\jonas\\OneDrive\\Documents\\AP2025\\programmeren\\APIontwikkeling\\labo\\herhaling\\herhaling\\herhaling.csproj",
         "projectName": "herhaling",
-        "projectPath": "C:\\Users\\Jonas\\Documents\\AP desktop\\actief\\apiOntwikkeling\\labo\\herhaling\\herhaling\\herhaling.csproj",
-        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonas\\Documents\\AP desktop\\actief\\apiOntwikkeling\\labo\\herhaling\\herhaling\\obj\\",
+        "projectPath": "C:\\Users\\jonas\\OneDrive\\Documents\\AP2025\\programmeren\\APIontwikkeling\\labo\\herhaling\\herhaling\\herhaling.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jonas\\OneDrive\\Documents\\AP2025\\programmeren\\APIontwikkeling\\labo\\herhaling\\herhaling\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,12 +37,25 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -67,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Jonas\\.dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\jonas\\.dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
